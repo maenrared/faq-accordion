@@ -62,4 +62,55 @@ body{
     text-align: center; }
 
 .attribution a {
-    color: hsl(228, 45%, 44%); }/*
+    color: hsl(228, 45%, 44%); }
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .about {
+        width: 80%;
+        padding: 20px;
+    }
+
+    .faq {
+        font-size: 20px;
+    }
+
+    .quiz {
+        font-size: 14px;
+    }
+
+    .para1 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .faq {
+        font-size: 18px;
+    }
+
+    .quiz {
+        font-size: 14px;
+    }
+
+    .para1 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
