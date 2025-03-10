@@ -64,7 +64,7 @@ body{
 .attribution a {
     color: hsl(228, 45%, 44%); }
 
-/* Responsive design */
+/* Responsive Styles */
 @media (max-width: 768px) {
     .about {
         width: 80%;
