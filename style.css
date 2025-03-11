@@ -56,7 +56,27 @@ body{
 .hr1{
     margin: 10px 0;
     opacity: 0.1;}
-
+    
+    .answer {
+        display: none;
+        padding: 10px;
+      }
+      
+      .answer-row.active .answer {
+        display: table-cell;
+      }
+      
+      .quiz {
+        cursor: pointer;
+        text-align: left;
+        padding: 15px;
+      }
+      
+      .toggle-icon {
+        width: 20px;
+        transition: transform 0.3s ease;
+      }
+      
 .attribution {
     font-size: 11px; 
     text-align: center; }

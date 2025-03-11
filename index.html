@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./style.css">
   <title>Frontend Mentor | FAQ accordion</title>
+  <script src="./script.js"></script>
 </head>
 <body>
 <div class="img-1">
@@ -19,61 +20,65 @@
     <h1><b>FAQs</b></h1>
   </div>
    
-   <table class="table">
-   <tr>
+  <table class="table">
+    <tr class="faq-item">
       <th class="quiz">What is Frontend Mentor, and how will it help me?</th>
-      <td><img src="./icon-minus.svg"></td>
+      <td><img src="./icon-minus.svg" class="toggle-icon"></td>
     </tr> 
-
+    <tr class="answer-row">
+      <td colspan="2" class="answer active">
+        Frontend Mentor offers realistic coding challenges to help
+        developers improve their frontend coding skills with projects in
+        HTML, CSS, and JavaScript. It's suitable for all levels and ideal for
+        portfolio building.
+      </td>
+    </tr>
+    
     <tr>
       <td colspan="2"><hr class="hr1" /></td>
     </tr>
-
-    <tr>
-      <th class="para1">Frontend Mentor offers realistic coding challenges to help
-  developers improve their frontend coding skills with projects in
-  HTML, CSS, and JavaScript. It's suitable for all levels and ideal for
-  portfolio building.</th>
-    </tr> 
-
-    <tr>
-      <td colspan="2"><hr class="hr1" /></td>
-    </tr>
-
-    <tr>
-      <th class="quiz">Is Frontend Mentor free?</th>
-      <td><img src="./icon-plus.svg"></td>
-    </tr>
-
-    <tr>
-      <td colspan="2"><hr class="hr1" /></td>
-    </tr>
-
-    <tr>
-      <th class="quiz">Can I use Frontend Mentor projects in my portfolio?</th>
-      <td><img src="./icon-plus.svg"></td>
-    </tr>
-
-    <tr>
-      <td colspan="2"><hr class="hr1" /></td>
-    </tr>
-
-    <tr>
-      <th class="quiz">How can I get help if I'm stuck on a challenge?</th>
-      <td><img src="./icon-plus.svg"></td>
-    </tr>
-
-  </table>
- <!--
- <p>Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
-  option providing access to a range of projects suitable for all skill levels.</p>
   
- <p>Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
-  way to showcase your skills to potential employers!</p>
-
- <p>The best place to get help is inside Frontend Mentor's Discord community. There's a help 
-  channel where you can ask questions and seek support from other community members.</p>
--->
+    <tr class="faq-item">
+      <th class="quiz">Is Frontend Mentor free?</th>
+      <td><img src="./icon-plus.svg" class="toggle-icon"></td>
+    </tr> 
+    <tr class="answer-row">
+      <td colspan="2" class="answer">
+        Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
+  option providing access to a range of projects suitable for all skill levels.
+      </td>
+    </tr>
+  
+    <tr>
+      <td colspan="2"><hr class="hr1" /></td>
+    </tr>
+  
+    <tr class="faq-item">
+      <th class="quiz">Can I use Frontend Mentor projects in my portfolio?</th>
+      <td><img src="./icon-plus.svg" class="toggle-icon"></td>
+    </tr>
+    <tr class="answer-row">
+      <td colspan="2" class="answer">
+        Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
+  way to showcase your skills to potential employers!
+      </td>
+    </tr>
+  
+    <tr>
+      <td colspan="2"><hr class="hr1" /></td>
+    </tr>
+  
+    <tr class="faq-item">
+      <th class="quiz">How can I get help if I'm stuck on a challenge?</th>
+      <td><img src="./icon-plus.svg" class="toggle-icon"></td>
+    </tr>
+    <tr class="answer-row">
+      <td colspan="2" class="answer">
+        The best place to get help is inside Frontend Mentor's Discord community. There's a help 
+  channel where you can ask questions and seek support from other community members.
+      </td>
+    </tr>
+  </table>
 </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
